@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kurigram Government College-KGC</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		font-family: tahoma;
+	}
+	body{
+		width: 960px;
+		background-color: #002244;
+		margin: 0px auto;
+	}
+	.main {
+		background-color: #efefef;
+	}
+	///*******header image design*****************////
+	.header img{
+        width: 960px;
+        height: 150px;
+    }
+
+
+	//////************navigation bar design******************************/////////
+	div#wrapper{
+		width: 960px;
+		font-size: 40px;
+		background-color: #ccc;
+		margin: 10px auto;
+	}
+	ul#navmenu li{
+		list-style: none;
+		width: 155px;
+		border:2px solid #fff;
+        border-radius: 15px;
+		float: left;
+		position: relative;
+	}
+	ul#navmenu li a{
+		width: 155px;
+		
+		line-height: 50px;
+		border-radius: 15px;
+		text-decoration: none;
+		display: block;
+		/*background color code from----------colormozilla.com---------*/
+       
+        background: rgb(135,224,253); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+	}
+	ul#innerul{
+		position: absolute;
+		left: 0px;
+		top: 50px;
+		display: none;
+	}
+	ul#innerul li{
+		position: relative;
+	}
+	ul#navmenu li:hover ul#innerul{
+		display: block;
+		z-index: 15;
+	}
+
+	ul#innerul2{
+		position: absolute;
+		left: 155px;
+		top: 0px;
+		display: none;
+	}
+	ul#innerul2 li{
+		position: relative;
+	}
+	ul#innerul li:hover ul#innerul2{
+		display: block;
+	}
+	///******content************///
+	#content{
+		width: 800px;
+		height: 500px;
+		clear: both;
+		background-color: gray;
+	}
+	#content p{
+		text-align: left;
+	}
+	img{
+		float: left;
+	}
+	</style>
+</head>
+<body>
+<div class="main">
+<div class="header">
+	<img src="image/college5.jpg">
+</div>
+<div id="wrapper">                                                     <!-----navigation bar---->
+<ul id="navmenu">
+	<li><a href="#" target="_blank"><h3>Home</h3></a></li>
+	<li><a href="#" target="_blank"><h3>About</h3></a>
+	      <ul id="innerul">
+	      	<li><a href="About_Introduction.html" target="_blank">Introduction</a></li>
+	        <li><a href="About_History.html" target="_blank">History</a></li>
+	        <li><a href="#" target="_blank">Mission & Vission</a>
+	        <li><a href="#" target="_blank">Achievements</a></li>
+	      </ul>
+	</li>
+	<li><a href="#" target="_blank"><h3>Administration</h3></a>
+	      <ul id="innerul">
+	      	<li><a href="Administration_principal.html" target="_blank">Principal</a></li>
+	        <li><a href="Administration_vice-principal.html" target="_blank">Vice-principal</a></li>
+	        <li><a href="Administration_staff-council.html" target="_blank">Staff council</a></li>
+	        <li><a href="Administration_Teachers list.html" target="_blank">Teachers List</a></li>
+	        <li><a href="Administration_Employee list.html" target="_blank">Employee List</a></li>
+	      </ul>
+	</li>
+	<li><a href="#" target="_blank"><h3>Faculties</h3></a>
+	        <ul id="innerul">
+	      	<li><a href="#" target="_blank">Science</a>
+	      	     <ul id="innerul2">
+						<li><a href="#">Physics</a></li>
+						<li><a href="#">Botany</a></li>
+						<li><a href="#">Chemistry</a></li>
+						<li><a href="#">Zoology</a></li>
+						<li><a href="#">Mathmetics</a></li>
+						<li><a href="#">Philosophy</a></li>
+	            </ul>
+	      	</li>
+	        <li><a href="#" target="_blank">Humanities</a>
+	             <ul id="innerul2">
+				      	<li><a href="#">English</a></li>
+				      	<li><a href="#">Bengli</a></li>
+				      	<li><a href="#">Political Science</a></li>
+				      	<li><a href="#">History</a></li>
+				      	<!--<li><a href="#">Islamic History & Culture</a></li>-->
+	            </ul>
+	        </li>
+	        <li><a href="#" target="_blank">Business studies</a>
+	            <ul id="innerul2">
+						<li><a href="#">Economics</a></li>
+						<li><a href="#">Accounting</a></li>
+						<li><a href="#">Management</a></li>
+	            </ul>
+	        </li>
+	      </ul>
+	</li>
+	<li><a href="#" target="_blank"><h3>Admission</h3></a>
+	     <ul id="innerul">
+	      	<li><a href="#" target="_blank">HSC</a></li>
+	        <li><a href="#" target="_blank">Honours 1st year</a></li>
+	        <li><a href="#" target="_blank">Masters Preliminary</a>
+	        <li><a href="#" target="_blank">Masters Final</a></li>
+	      </ul>
+	</li>
+	<li><a href="#" target="_blank"><h3>Photo Gallery</h3></a></li>
+</ul>
+</div>
+<div id="content">
+	<h1><i>Teachers Lists</i></h1>
+	<iframe width="800" height="800" scrolling="yes" src="pdf/Teacher List-2015.pdf"></iframe>
+	</div>
+</div>
+</body>
+</html>

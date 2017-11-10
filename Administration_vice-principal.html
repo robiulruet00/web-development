@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kurigram Government College-KGC</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		font-family: tahoma;
+	}
+	body{
+		width: 960px;
+		background-color: #002244;
+		margin: 0px auto;
+	}
+	.main {
+		background-color: #efefef;
+	}
+	///*******header image design*****************////
+	.header img{
+        width: 960px;
+        height: 150px;
+    }
+
+
+	//////************navigation bar design******************************/////////
+	div#wrapper{
+		width: 960px;
+		font-size: 40px;
+		background-color: #ccc;
+		margin: 10px auto;
+	}
+	ul#navmenu li{
+		list-style: none;
+		width: 155px;
+		border:2px solid #fff;
+        border-radius: 15px;
+		float: left;
+		position: relative;
+	}
+	ul#navmenu li a{
+		width: 155px;
+		
+		line-height: 50px;
+		border-radius: 15px;
+		text-decoration: none;
+		display: block;
+		/*background color code from----------colormozilla.com---------*/
+       
+        background: rgb(135,224,253); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+	}
+	ul#innerul{
+		position: absolute;
+		left: 0px;
+		top: 50px;
+		display: none;
+	}
+	ul#innerul li{
+		position: relative;
+	}
+	ul#navmenu li:hover ul#innerul{
+		display: block;
+		z-index: 15;
+	}
+
+	ul#innerul2{
+		position: absolute;
+		left: 155px;
+		top: 0px;
+		display: none;
+	}
+	ul#innerul2 li{
+		position: relative;
+	}
+	ul#innerul li:hover ul#innerul2{
+		display: block;
+	}
+	///******content************///
+	#content{
+		width: 800px;
+		height: 500px;
+		clear: both;
+		background-color: gray;
+	}
+	#content p{
+		text-align: left;
+	}
+	img{
+		float: left;
+	}
+	</style>
+</head>
+<body>
+<div class="main">
+<div class="header">
+	<img src="image/college5.jpg">
+</div>
+<div id="wrapper">                                                     <!-----navigation bar---->
+<ul id="navmenu">
+	<li><a href="#" target="_blank"><h3>Home</h3></a></li>
+	<li><a href="#" target="_blank"><h3>About</h3></a>
+	      <ul id="innerul">
+	      	<li><a href="About_Introduction.html" target="_blank">Introduction</a></li>
+	        <li><a href="About_History.html" target="_blank">History</a></li>
+	        <li><a href="#" target="_blank">Mission & Vission</a>
+	        <li><a href="#" target="_blank">Achievements</a></li>
+	      </ul>
+	</li>
+	<li><a href="#" target="_blank"><h3>Administration</h3></a>
+	      <ul id="innerul">
+	      	<li><a href="Administration_principal.html" target="_blank">Principal</a></li>
+	        <li><a href="Administration_vice-principal.html" target="_blank">Vice-principal</a></li>
+	        <li><a href="Administration_staff-council.html" target="_blank">Staff council</a></li>
+	        <li><a href="Administration_Teachers list.html" target="_blank">Teachers List</a></li>
+	        <li><a href="Administration_Employee list.html" target="_blank">Employee List</a></li>
+	      </ul>
+	</li>
+	<li><a href="#" target="_blank"><h3>Faculties</h3></a>
+	        <ul id="innerul">
+	      	<li><a href="#" target="_blank">Science</a>
+	      	     <ul id="innerul2">
+						<li><a href="#">Physics</a></li>
+						<li><a href="#">Botany</a></li>
+						<li><a href="#">Chemistry</a></li>
+						<li><a href="#">Zoology</a></li>
+						<li><a href="#">Mathmetics</a></li>
+						<li><a href="#">Philosophy</a></li>
+	            </ul>
+	      	</li>
+	        <li><a href="#" target="_blank">Humanities</a>
+	             <ul id="innerul2">
+				      	<li><a href="#">English</a></li>
+				      	<li><a href="#">Bengli</a></li>
+				      	<li><a href="#">Political Science</a></li>
+				      	<li><a href="#">History</a></li>
+				      	<!--<li><a href="#">Islamic History & Culture</a></li>-->
+	            </ul>
+	        </li>
+	        <li><a href="#" target="_blank">Business studies</a>
+	            <ul id="innerul2">
+						<li><a href="#">Economics</a></li>
+						<li><a href="#">Accounting</a></li>
+						<li><a href="#">Management</a></li>
+	            </ul>
+	        </li>
+	      </ul>
+	</li>
+	<li><a href="#" target="_blank"><h3>Admission</h3></a>
+	     <ul id="innerul">
+	      	<li><a href="#" target="_blank">HSC</a></li>
+	        <li><a href="#" target="_blank">Honours 1st year</a></li>
+	        <li><a href="#" target="_blank">Masters Preliminary</a>
+	        <li><a href="#" target="_blank">Masters Final</a></li>
+	      </ul>
+	</li>
+	<li><a href="#" target="_blank"><h3>Photo Gallery</h3></a></li>
+</ul>
+</div>
+<div id="content">
+	<img src="image/Vice Principal.jpg" align="left">
+	<div class="message">
+		<p>It gives me great pleasure to note that with the launch of its own dynamic website and application software of our Govt. Bangla College is now one step ahead in being globally connected. Government Bangla College is a well renowned government college, situated In Mirpur, Dhaka. It is the only government college in Mirpur, Dhaka. This college was deeply involved with the ‘Liberation war’ of Bangladesh, in 1971, and it contains a cemetery of martyrs a priceless entity.</p><br />
+		<p>
+		Needless to say, the Internet is a magic force in today’s world. It has changed all nations of time and place. It has brought the remotest parts of the world together, unifying them into what we now call a ‘global village’. A message can now travel to far-way lands at the speed of light. We can instantly share anything with those we never meet before. Thanks to this technological revolution, our access to information and the opportunity to share it with others has amazingly expanded. To benefit from this communication boom Govt. Bangla College has come up with its website as a window for the effective dissemination of all its relevant information. The history and organizational structure of the college, its cultural and intellectual life, its plans and schedules as well as all useful academic and management information can now be more easily made known to a much wider audience. Hopefully, this website will project the image of our reputed institution in a more effective manner.
+		</p><br />
+		<p>
+		I am very proud to announce that Govt. Bangle College is about to open it very own dynamic website and application software, an absolute necessity in our modern era, that will take our college’s educational development one step further. It was our long cherished dream to launch a website of our own and with hard work and cooperation, our dream has been fulfilled. The website was inspired by our present Government’s “Vision 2021”, being closely affiliated with achieving the goal of a ‘digital Bangladesh”.
+		</p><br />
+		<p>
+		Using this technological advancement will only take our college towards improvement in all sectors. Information can now be easily accessed by teachers. Students, staff and the general public at ease via this dynamic website and application software.
+		</p><br />
+		<p>Best wishes to all.</p><br /><br />
+		<img src="image/Vice Principal Signature.jpg">
+		<p style="text-align:left;clear:both;">
+         Professor Imam Hossain<br />
+         Principal<br />
+         Govt. Bangla College, Dhaka
+		</p>
+	</div>
+</div>
+</div>
+</body>
+</html>
